@@ -32,7 +32,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## The cacheSolve function receives a list object generated from the
 ##    makeCacheMatrix function and returns the inverse matrix by:
-##    1) Returing the cached inverse matrix exists, ir it exists, or
+##    1) Returning the cached inverse matrix if it exists, OR
 ##    2) Calling solve() on the cached matrix to calculate the inverse
 
 cacheSolve <- function(x, ...) {
